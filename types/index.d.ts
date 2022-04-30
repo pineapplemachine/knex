@@ -2591,6 +2591,7 @@ export declare namespace Knex {
     flags?: string[];
     debug?: boolean;
     expirationChecker?(): boolean;
+    defaultSafeIntegers?: boolean;
   }
 
   interface SocketConnectionConfig {
